@@ -1,34 +1,28 @@
 //q1
 var a={};
 //q2
-var person ={
+let person ={
     name:"abi",
     age:21 ,
-    introduceYou:function  () {
-        return 'hello'+person.name+ 'welcome to the coding school';
+    introduceYou:function()
+    {
+       console.log("hello "+person.name +"welcome to the coding school")
+ }
 }
-}
-
+console.log(person.introduceYou())
 
 
 
 //q3
 function greetStudent() {
-    return'hello' +person.name+ 'welcome to the coding school';
+    return'hello'+ person.name + 'welcome to the coding school';
     
 }
-//q4
+console.log(greetStudent())
 /*
-person.name('abi');
-*/
-// q5
-person.email ="jhon@example.com";
-//q6
-delete person.age;
-console.log(person)
-//q7
-console.log(person.hasOwnProperty('name')); 
-
+console.log(greetStudent)
+//q4
+person.name();
 // q5
 person.email ="jhon@example.com";
 //q6
@@ -56,4 +50,4 @@ function btn() {
 }
 //q11
 var Student =['abi',21,'uki stu 21'];
-
+*/
